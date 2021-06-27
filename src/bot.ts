@@ -35,7 +35,7 @@ const bot = (): void => {
       const content = message.content
         .substring(prefix.length + args[0].length)
         .trim();
-      let arr: Array<string>
+      const arr : Array<string> = []
       let mess: string
 
       if (message.content[0] === "!") {
