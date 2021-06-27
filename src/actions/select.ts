@@ -2,7 +2,7 @@ import { Message, MessageEmbed } from "discord.js";
 
 import { formatTimeRange } from "../utils/time";
 import { servers } from "../data/server";
-import { misabotLogo, platforms } from "../constant/config";
+import { gaixinhBotLogo, platforms } from "../constant/config";
 
 export default {
   name: "select",
@@ -52,7 +52,7 @@ export default {
                   inline: false,
                 }
               )
-              .setFooter(`Misabot © ${new Date().getFullYear()}`, misabotLogo);
+              .setFooter(`Gaixinh © ${new Date().getFullYear()}`, gaixinhBotLogo);
             server.playing = null;
             message.channel
               .send(messageEmbed)

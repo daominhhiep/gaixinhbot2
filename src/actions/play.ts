@@ -5,7 +5,7 @@ import { getVideoDetails, getPlaylist } from "../services/youtube";
 import { formatTimeRange } from "../utils/time";
 import { youtubePlaylistRegex } from "../constant/regex";
 import { playAudio } from "./playAudio";
-import { misabotLogo, platforms } from "../constant/config";
+import { gaixinhBotLogo, platforms } from "../constant/config";
 import { Platform } from "../services/types";
 
 export default {
@@ -45,7 +45,7 @@ export default {
                   inline: true,
                 }
               )
-              .setFooter(`Gaixinhbot © ${new Date().getFullYear()}`, misabotLogo);
+              .setFooter(`Gaixinhbot © ${new Date().getFullYear()}`, gaixinhBotLogo);
 
             message.channel.send(messageEmbed).then(() => {
               if (!message.guild.voice) {
@@ -106,7 +106,7 @@ export default {
                 }
               )
               .addField("Position in order", server.queue.length + 1, true)
-              .setFooter(`Gaixinhbot © ${new Date().getFullYear()}`, misabotLogo);
+              .setFooter(`Gaixinhbot © ${new Date().getFullYear()}`, gaixinhBotLogo);
 
             message.channel.send(messageEmbed).then(() => {
               if (!message.guild.voice) {

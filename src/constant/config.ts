@@ -11,7 +11,7 @@ export const soundCloudLogo =
 export const youtubeLogo =
   "https://res.cloudinary.com/dumfvnj9f/image/upload/v1621607197/misabot-discord/youtube_af1h05.png";
 
-export const misabotLogo =
+export const gaixinhBotLogo =
   "https://res.cloudinary.com/dumfvnj9f/image/upload/v1621607524/misabot-discord/misabot-footer_nqcfen.png";
 
 export const platforms = {
