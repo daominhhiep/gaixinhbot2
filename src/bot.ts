@@ -38,7 +38,7 @@ const bot = (): void => {
       const arr : Array<string> = []
       let mess: string
 
-      if (message.content[0] === "!") {
+      if (message.content[0] === "-") {
         switch (args[0]) {
           case "p":
           case play.name:
